@@ -9,7 +9,7 @@ Build a web application that allows users to manage their book collection and ke
 Goal: Build the core features of Book Buddy with a simple front-end using Vanilla JavaScript. Implement a basic back-end using Node.js and Express to handle API requests and connect with a database (e.g., MongoDB).
 
 Tech Stack:
-
+- UI: Figma
 - Frontend: HTML, CSS, Vanilla JavaScript
 - Backend: Node.js with Express for REST APIs
 - Database: MongoDB (or a lightweight JSON file for storing data in early development)
