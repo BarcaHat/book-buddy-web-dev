@@ -1,44 +1,43 @@
-Project: Book Buddy - A Digital Bookshelf and Reading Tracker
+# Book Buddy - A Digital Bookshelf and Reading Tracker
 
-Objective:
+## Objective:
 
 Build a web application that allows users to manage their book collection and keep track of their reading progress. The app should include essential features like book listing, categorization, reading progress tracking, and a basic analytics dashboard.
 
-Phase 1: Junior Level (Vanilla JavaScript, HTML, CSS)
+## Phase 1: Junior Level (Vanilla JavaScript, HTML, CSS)
 
 Goal: Build the core features of Book Buddy with a simple front-end using Vanilla JavaScript. Implement a basic back-end using Node.js and Express to handle API requests and connect with a database (e.g., MongoDB).
 
 Tech Stack:
 
-	•	Frontend: HTML, CSS, Vanilla JavaScript
-	•	Backend: Node.js with Express for REST APIs
-	•	Database: MongoDB (or a lightweight JSON file for storing data in early development)
-	•	Version Control: Git for source code management
-	•	Hosting: GitHub Pages or basic server deployment on Heroku
+- Frontend: HTML, CSS, Vanilla JavaScript
+- Backend: Node.js with Express for REST APIs
+- Database: MongoDB (or a lightweight JSON file for storing data in early development)
+- Version Control: Git for source code management
+- Hosting: GitHub Pages or basic server deployment on Heroku
 
 Key Features:
 
-	1.	User Authentication (Basic):
-	•	Simple login and signup functionality.
-	•	Use bcrypt for password hashing, and store sessions locally.
-	2.	Book Collection Management:
-	•	CRUD operations for books (Create, Read, Update, Delete).
-	•	Each book entry includes title, author, category, and status (e.g., “Want to Read,” “Reading,” “Finished”).
-	3.	Reading Progress Tracking:
-	•	Allow users to log their reading progress as a percentage for each book.
-	•	Update status based on progress (e.g., if 100% complete, mark as “Finished”).
-	4.	Basic Analytics Dashboard:
-	•	Simple dashboard showing the number of books in each category (e.g., “Want to Read,” “Reading,” “Finished”).
-	5.	Responsive UI:
-	•	Design the UI using responsive CSS so that it’s user-friendly on both desktop and mobile.
+1.	User Authentication (Basic):
+	- Simple login and signup functionality.
+	- Use bcrypt for password hashing, and store sessions locally.
+2.	Book Collection Management:
+	- CRUD operations for books (Create, Read, Update, Delete).
+	- Each book entry includes title, author, category, and status (e.g., “Want to Read,” “Reading,” “Finished”).
+3.	Reading Progress Tracking:
+	- Allow users to log their reading progress as a percentage for each book.
+	- Update status based on progress (e.g., if 100% complete, mark as “Finished”).
+4.	Basic Analytics Dashboard:
+	- Simple dashboard showing the number of books in each category (e.g., “Want to Read,” “Reading,” “Finished”).
+5.	Responsive UI:
+	- Design the UI using responsive CSS so that it’s user-friendly on both desktop and mobile.
 
 Deliverables:
+- Functional web app deployed with GitHub Pages or Heroku.
+- Basic, working API with endpoints for handling book-related requests.
+- Documentation for setup and basic API usage.
 
-	•	Functional web app deployed with GitHub Pages or Heroku.
-	•	Basic, working API with endpoints for handling book-related requests.
-	•	Documentation for setup and basic API usage.
-
-Phase 2: Senior Level (React, RESTful API Enhancements, State Management)
+## Phase 2: Senior Level (React, RESTful API Enhancements, State Management)
 
 Goal: Improve the app’s interactivity and performance by refactoring the frontend to React. Enhance the back-end API with advanced features, such as search and filtering options.
 
@@ -66,7 +65,7 @@ Deliverables:
 	•	RESTful API with filtering and sorting capabilities.
 	•	Full project documentation and deployment on a scalable platform.
 
-Phase 3: Master’s Level (Next.js, GraphQL, Server-Side Rendering, and Microservices)
+## Phase 3: Master’s Level (Next.js, GraphQL, Server-Side Rendering, and Microservices)
 
 Goal: Convert the app to a server-rendered application for SEO benefits and integrate GraphQL for efficient data fetching. Add a microservices architecture for scalability and real-time notifications.
 
